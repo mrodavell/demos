@@ -1,0 +1,10 @@
+HTML Tags Categories
+
+// Meta 
+// Text
+// Multimedia
+   image - video - audio
+// Box or Layout
+// Table
+// Link
+// Forms
