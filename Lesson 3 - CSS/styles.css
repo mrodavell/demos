@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+}
+
+div{
+    background-color: azure;
+}
+
+#divIDExternal{
+    border: 3px solid maroon;
+}

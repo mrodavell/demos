@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS DEMO</title>
+    <!-- Internal Styling -->
+    <style type="text/css">
+         /*Selector are either 
+            html element or class attribute or ID attribute 
+        */
+        #divID{
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid blue;
+        }
+
+        div{
+            padding: 10px;
+            margin: 10px;
+            border: 3px solid green;
+        }
+
+        #textID2{
+            display: inline-block;
+            color: red;
+        }
+
+        .textClass{
+            display: block;
+            color: violet;
+        }
+
+    </style>
+    <!-- External Styling -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <!-- Inline CSS Style -->
+    <h3>INLINE</h3>
+    <h1 style="color: red; font-size: 50px;">My name is Jomar</h1>
+    <!-- Applied with Internal CSS Style -->
+    <h3>INTERNAL</h3>
+    <div>
+        <span id="textID">I am inside a box</span>
+        <span id="textID2" class="textClass">I am inside a box</span>
+        <span class="textClass">I am also inside a box</span>
+    </div>
+    <div id="divID">
+        <span class="textClass">I am another text in a box</span>
+    </div>
+    <!-- Applied External CSS Style -->
+    <h3>EXTERNAL</h3>
+    <div>
+        <span id="textIDExternal">I am inside a box</span>
+        <span id="textID2External" class="textClasstExternal">I am inside a box</span>
+        <span class="textClassExternal">I am also inside a box</span>
+    </div>
+    <div id="divIDExternal">
+        <span class="textClassExternal">I am another text in a box</span>
+    </div>
+</body>
+</html>
